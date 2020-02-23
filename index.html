@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmark App</title>
+  </head>
+  <body onload= "fetchBookmarks()" >
+
+<!-- New Bookmark Input Section -->
+    <div class="container">
+      <div class="header clearfix">
+        <h1 id="page-header">Bookmark Manager</h1>
+        <form id="main-form">
+          <div class="form-group">
+            <label for="websiteName">Enter Website Name</label>
+            <input type="text" class="form-control" id="websiteName" placeholder="Website Name" />
+            <label for="websiteURL">Enter Website URL</label>
+            <input type="text" class="form-control" id="websiteURL" placeholder="Website URL" />
+            <div class="center-form-button"><button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+<!-- Stored Bookmarks Display Area -->
+      <div class="website-display">
+        <div class="col-lg-12">
+          <div id="bookmark-results"></div>
+        </div>
+      </div>
+
+<!-- Footer -->
+      <foote class="footer">
+        <p>
+          &copy; 2020 JMB Inc.
+        </p>
+      </footer>
+    </div>
+    
+<!-- Jquery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+   </body>
+</html>

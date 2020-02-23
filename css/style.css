@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: center;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+  text-align: center;
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+form {
+  margin-top: 2rem;
+  background-color: rgb(231, 227, 227);
+  padding: 2rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 40px;
+}
+.center-form-button {
+  text-align: center;
+}
+
+form button {
+  margin-top: 1.5rem;
+  width: 150px;
+}
+
+#page-header {
+  border-bottom: #eee9e9 solid 1px;
+  padding-bottom: 1rem;
+}
+
+#bookmark-results {
+  margin-top: 3rem;
+}
+
+#websiteName {
+  margin-bottom: 3rem;
+}
+
+#websiteURL {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin: auto;
+  width: 90%;
+}
